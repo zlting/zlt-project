@@ -1,25 +1,26 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <br>
-
-    <router-link to="/use-echart">UseEchartPage</router-link>
+    <img src="./assets/logo.png">
+    <router-link to="/use-echart">useEchartPage</router-link>
     <router-view></router-view>
+
+    <el-button>el-button</el-button>
   </div>
 </template>
 
 <script>
 
 export default {
-  name: 'App',
+  name: 'app',
   components: {
+
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
